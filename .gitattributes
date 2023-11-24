@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+chessPositionsTraining/ratedData/tactic_evals.csv filter=lfs diff=lfs merge=lfs -text
+chessPositionsTraining/ratedData/random_evals.csv filter=lfs diff=lfs merge=lfs -text
+chessPositionsTraining/ratedData/chessData.csv filter=lfs diff=lfs merge=lfs -text
